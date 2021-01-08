@@ -1,6 +1,3 @@
-#include<iostream>
-using namespace std;
-
 int main(){
 	int i = 1;
 	int count[5] = {}; //Declare array count for counting A,B,C,D,F and initialize all element = 0
@@ -35,7 +32,7 @@ int main(){
 	cout << "B = " << count[1] <<", ";	
 	cout << "C = " << count[2] <<", ";
 	cout << "D = " << count[3] <<", ";
-	cout << "F = " << count[4] <<"";
+	cout << "F = " << count[4] <<", ";
 	//	and so on ... for grade = C, D, F	
 	
 	
